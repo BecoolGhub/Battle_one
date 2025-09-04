@@ -2,6 +2,7 @@
 function Course(props) {
 
     return (
+    
         <nav className="card">
             <img src={props.image} className='image' />
             <h3 >{props.name}</h3>

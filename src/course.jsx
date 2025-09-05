@@ -1,10 +1,9 @@
 
 function Course(props) {
 
-   if(props.show){
-     return (
+    return (
 
-        <nav className="card" >
+      props.name &&  <nav className="card" >
             <img src={props.image} className='image' />
             <h3 >{props.name}</h3>
             <p>{props.price}</p>
@@ -14,11 +13,7 @@ function Course(props) {
             </div>
         </nav>
     );
-   }else{
-    return(
-        <div className="card">course not available</div>
-    );
-   }
+
 }
 
 export default Course;

@@ -1,0 +1,45 @@
+{
+"courses" : [
+        {
+            "id": 1,
+            "name": "HTML",
+            "price": 199,
+            "buy": "Buy Course",
+            "image": "http://localhost:3000/assets/html.png",
+            "rating": 5
+        },
+        {
+            "id": 2,
+            "name": "CSS",
+            "price": 299,
+            "buy": "Buy Course",
+            "image": "http://localhost:3000/assets/css.png",
+            "rating": 5
+        },
+        {
+           "id": 3,
+            "name": "JS",
+            "price": 399,
+            "buy": "Buy Course",
+            "image": "http://localhost:3000/assets/js.png",
+            "rating": 5
+        },
+        {
+            "id": 4,
+            "name": "BS",
+            "price": 350,
+            "buy": "Buy Course",
+            "image": "http://localhost:3000/assets/bs.jpeg",
+            "rating": 5
+        },
+        {
+            "id": 5,
+            "name": "REACT",
+            "price": 1000,
+            "buy": "Buy Course",
+            "image": "http://localhost:3000/assets/js.png",
+            "rating": 5
+        }
+    ]
+}
+

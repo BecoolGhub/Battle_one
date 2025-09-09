@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 
+
 function Course(props) {
 
     const [purchased , setPurchased] = useState(false);
